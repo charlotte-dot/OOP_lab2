@@ -1,20 +1,23 @@
-package com.company;
+package com.company.animals;
 
+import com.company.animals.Animal;
 import com.company.devices.Car;
 import com.company.devices.Phone;
 
 public class Human extends Animal {
-    String firstName;
-    String lastName;
-    Animal pet;
-    Phone phone;
-    Car car;
+    public Phone phone;
+    public Double cash;
+    public Car car;
+    public String firstName;
+    public String lastName;
+    public Animal pet;
+//    public Double cash;
 
     public final static String HUMAN_SPECIE = "homo sapiens";
 
     private Double salary;
 
-    Human(Double salary) {
+    public Human(Double salary) {
         super(HUMAN_SPECIE);
         this.setSalary(salary);
     }

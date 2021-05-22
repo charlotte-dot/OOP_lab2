@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.animals.Animal;
+import com.company.animals.Human;
 import com.company.devices.Car;
 import com.company.devices.Phone;
 
@@ -30,7 +32,12 @@ public class Main {
 
         onePlus.turnOn();
 
-        Car fiat = new Car();
+        Car fiat = new Car() {
+            @Override
+            public void refuel() {
+
+            }
+        };
         fiat.engineSize = 1.9;
         fiat.fuelType = "disel";
         fiat.producer = "Fiat";
@@ -53,4 +60,5 @@ public class Main {
         System.out.println(me.getClass().getSuperclass().getSuperclass().getSuperclass());
 
     }
+
 }

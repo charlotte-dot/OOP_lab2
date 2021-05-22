@@ -1,4 +1,4 @@
-package com.company;
+package com.company.animals;
 
 public class Animal {
     final static Double DEFAULT_DOG_WEIGHT = 6.0;
@@ -46,3 +46,4 @@ public class Animal {
         return name + " " + owner;
     }
 }
+
