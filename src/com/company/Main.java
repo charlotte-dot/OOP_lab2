@@ -39,7 +39,7 @@ public class Main {
             }
         };
         fiat.engineSize = 1.9;
-        fiat.fuelType = "disel";
+        fiat.fuelType = "diesel";
         fiat.producer = "Fiat";
         fiat.model = "Bravo";
 
@@ -58,7 +58,7 @@ public class Main {
         System.out.println(me.getClass().getSuperclass());
         System.out.println(me.getClass().getSuperclass().getSuperclass());
         System.out.println(me.getClass().getSuperclass().getSuperclass().getSuperclass());
-
+        System.out.println(fiat);
     }
 
 }
